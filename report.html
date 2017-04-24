@@ -57934,7 +57934,10 @@ a = np.array([[ 0.24879643,  0.07032244,  0.12641572,  0.34763842,  0.07893497,
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong>
+The model is absolutely certain about the signs "right of way", "speed limit (30 km/h)" and "no entry". It has very
+good certainty about the sign "double curve" and it is not so certain about "end of no passing". In any case, all of the images were predicted correctly.</p>
+<p><p>The top-5 lists show that the model assigns the highest probabilities to signs that have a similar shape and color. As I expected, the model has the least certainty on the "end of no passing" sign, and similar signs appear in the top predicted 5. However, I was a bit surprised to see "priority road" in that list, as it has a different shape and color.</p>
 
 </div>
 </div>
